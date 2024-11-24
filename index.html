@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Husain Ujjainwala Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+  <!-- Background Animation -->
+  <div id="particles-js"></div>
+ 
+<!-- Navbar -->
+<nav class="navbar">
+  <!-- <div class="logo">My Portfolio</div> -->
+  <div class="menu-icon" id="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <ul class="navbar-menu" id="navbar-menu">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+    
+
+  <!-- Header Section with Profile Picture -->
+  <header class="header">
+    <div class="profile-container">
+      <img src="husain.png" alt="Husain Ujjainwala" class="profile-img">
+    </div>
+
+      <div id="greeting">
+        <h1 id="animated-name">Hi, I'm Husain Ujjainwala</h1>
+      </div>
+ 
+   
+    <h1 class="title" id="intro"></h1>
+    <p class="subtitle">Full Stack Developer | Cloud Computing Enthusiast</p>
+    <button class="btn download-btn" onclick="window.location.href='Husain_ujjainwala_.pdf'">Download Resume</button>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I graduated in Computer Engineering from Shah and Anchor Kutchhi Engineering College. My passion lies in web development, software testing, and cloud computing. I enjoy creating interactive, scalable, and user-friendly applications that solve real-world problems. I have experience with front-end and back-end technologies such as React, Node.js, and cloud platforms like AWS. I am always eager to learn new technologies and keep up with the latest trends in the tech world.</p>
+  </section>
+
+  <!-- Experience Section with Timeline -->
+  <section id="experience">
+    <h2 style="text-align: center; margin: 0; padding: 0;">Experience</h2>
+
+      <div class="timeline-item animate__animated animate__fadeInUp">
+        <h3>Manual Tester</h3>
+        <span>I Life Digital Solutions Pvt Ltd, Jun 2024 - Sep 2024</span>
+        <p>Tested mobile applications, identified bugs, and documented test cases.</p>
+      </div>
+    </div>
+    <div class="timeline-item animate__animated animate__fadeInUp">
+      <h3>Junior Computer Engineer</h3>
+      <span>Autobake Production, May 2023 - Jun 2023</span>
+      <p>Worked on front-end development and collaborated with senior developers for product features.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item animate__animated animate__fadeInUp">
+        <h3>Full Stack Developer Intern</h3>
+        <span>IEEE, Dec 2022 - Feb 2023</span>
+        <p>Developed full-stack applications, focusing on integrating backend APIs with React frontend.</p>
+      </div>
+  </section>
+  <!-- Education Section -->
+<section id="education">
+  <h2 style="text-align: center; margin: 0; padding: 0;">Education</h2>
+
+  <ul class="timeline">
+    <li class="timeline-item">
+      <h3>Bachelor of Computer Science</h3>
+      <span>2020 - 2024</span>
+      <p>Shah And Anchor Kutchhi Engineering College, Chembur</p>
+    </li>
+    <li class="timeline-item">
+      <h3>Higher Secondary Certificate (HSC)</h3>
+      <span>2018 - 2020</span>
+      <p>K. j. Somaiya College Of Science & Commerce, Vidyavihar</p>
+    </li>
+    <li class="timeline-item">
+      <h3>Secondary School Certificate (SSC)</h3>
+      <span>2017 - 2018</span>
+      <p>Najmi English Medium School, Mumbra</p>
+    </li>
+  </ul>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Cinemate</h3>
+        <p>Movie recommendation system based on KNN and Cosine Similarity algorithms.</p>
+        <a href="https://github.com/YourUsername/Cinemate" target="_blank" class="btn">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Sporti-fy</h3>
+        <p>A sports blog platform built using PHP and MySQL for backend functionality.</p>
+        <a href="https://github.com/YourUsername/Sporti-fy" target="_blank" class="btn">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Event Management System</h3>
+        <p>A system to streamline event management processes efficiently.</p>
+        <a href="https://github.com/YourUsername/Event-Management" target="_blank" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section with Level -->
+   <!-- Skills Section -->
+
+   <div id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <i class="fab fa-react"></i>
+        <h3>React</h3>
+        <div class="progress-bar">
+          <div class="progress react"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-node"></i>
+        <h3>Node.js</h3>
+        <div class="progress-bar">
+          <div class="progress node"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-aws"></i>
+        <h3>AWS</h3>
+        <div class="progress-bar">
+          <div class="progress aws"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+          <div class="progress js"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-html5"></i>
+        <h3>HTML/CSS</h3>
+        <div class="progress-bar">
+          <div class="progress html-css"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-git-alt"></i>
+        <h3>Git</h3>
+        <div class="progress-bar">
+          <div class="progress git"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+        <div class="progress-bar">
+          <div class="progress python"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-java"></i>
+        <h3>Java</h3>
+        <div class="progress-bar">
+          <div class="progress java"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-cuttlefish">++</i>
+        <h3>C++</h3>
+        <div class="progress-bar">
+          <div class="progress cpp"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <!-- Contact Section with Form -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xqakdlod" method="POST">
+    <form id="contact-form">
+
+     
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </form>
+
+
+</section>
+
+    <!-- Contact Section -->
+   
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Husain Ujjainwala | Connect on 
+      <a href="https://www.linkedin.com/in/husain-ujjainwala-9539a0215" target="_blank">LinkedIn</a>
+      |
+      <a href="https://github.com/hussain-ujjainwala" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
